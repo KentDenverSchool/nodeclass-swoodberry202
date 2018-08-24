@@ -16,7 +16,7 @@ public class Node {
         pointers = new ArrayList<Node>();
         pointers.add(Mypointer);
     }
-    public Node(String myData){ //
+    public Node(String myData){
         data=myData;
         pointers = new ArrayList<Node>();
     }

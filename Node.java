@@ -21,7 +21,7 @@ public class Node {
         pointers = new ArrayList<Node>();
     }
 
-    public void pointMe(Node n){ pointers.add(n);}
+    public void pointMe(Node n){ pointers.add(n);}//hh
 
     public void setData(String data) {this.data = data; }
     public String getData() { return data; }
